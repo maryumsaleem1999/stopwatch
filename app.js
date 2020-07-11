@@ -18,8 +18,10 @@ function timer(){
 		minute.innerHTML=min
 	}
 }
+var status="play"
 function play(){
-interval=setInterval(timer,10)
+	interval=setInterval(timer,10)
+   document.getElementById("play").disabled=true; 
 }
 function stop(){
 	clearInterval(interval)  

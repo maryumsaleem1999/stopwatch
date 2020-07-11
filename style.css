@@ -6,6 +6,12 @@ body{
 h1{
 	text-align: center;
 	display: inline;
+	font-weight: 400px;
+	
+}
+.wide{
+	
+	width: auto;
 }
 .wrap{
 	display: inline-block;
@@ -30,10 +36,11 @@ p{
 	padding:20px;
 	color: darkgray;
 } 
-.option a{
+.option button{
 	display: inline-block;
 	text-decoration: none;
 	margin:10px;
+	border-style: none;
 }
 #play,#stop,#reset{
 	width: 70px;
@@ -49,7 +56,8 @@ p{
 .timer svg{
 	position: absolute;
 	left: 0;
+	width: 500px;
 }
-.defaultcircle{
+#animatecircle{
 	opacity: .5;
 }
